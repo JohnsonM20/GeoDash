@@ -15,6 +15,7 @@
 		55D4374A2B8A2A94006E26D6 /* GeoDashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D437492B8A2A94006E26D6 /* GeoDashTests.swift */; };
 		55D437542B8A2A94006E26D6 /* GeoDashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D437532B8A2A94006E26D6 /* GeoDashUITests.swift */; };
 		55D437562B8A2A94006E26D6 /* GeoDashUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D437552B8A2A94006E26D6 /* GeoDashUITestsLaunchTests.swift */; };
+		55D437632B8A2AF1006E26D6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D437622B8A2AF1006E26D6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		55D4374F2B8A2A94006E26D6 /* GeoDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoDashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D437532B8A2A94006E26D6 /* GeoDashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDashUITests.swift; sourceTree = "<group>"; };
 		55D437552B8A2A94006E26D6 /* GeoDashUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDashUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55D437622B8A2AF1006E26D6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				55D437352B8A2A92006E26D6 /* GeoDashApp.swift */,
 				55D437372B8A2A92006E26D6 /* ContentView.swift */,
+				55D437622B8A2AF1006E26D6 /* MapView.swift */,
 				55D437392B8A2A92006E26D6 /* Item.swift */,
 				55D4373B2B8A2A94006E26D6 /* Assets.xcassets */,
 				55D4373D2B8A2A94006E26D6 /* GeoDash.entitlements */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D437382B8A2A92006E26D6 /* ContentView.swift in Sources */,
+				55D437632B8A2AF1006E26D6 /* MapView.swift in Sources */,
 				55D4373A2B8A2A92006E26D6 /* Item.swift in Sources */,
 				55D437362B8A2A92006E26D6 /* GeoDashApp.swift in Sources */,
 			);
